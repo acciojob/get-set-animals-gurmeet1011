@@ -12,15 +12,6 @@
 	}
 }
 
-class Dog extends Animal {
-	constructor(soecies){
-		super(species);
-	}
-	bark(){
-		console.log("woof");
-	}
-}
-
 class Cat extends Animal {
 	constructor(species) {
     super(species); // Call the parent class constructor
@@ -31,6 +22,16 @@ class Cat extends Animal {
     console.log("purr");
   }
 }
+
+class Dog extends Animal {
+	constructor(soecies){
+		super(species);
+	}
+	bark(){
+		console.log("woof");
+	}
+}
+
 
 // Do not change the code below this line
 window.Animal = Animal;
